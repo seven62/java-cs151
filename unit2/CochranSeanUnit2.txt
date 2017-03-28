@@ -1,0 +1,33 @@
+print "What is the current odometer reading?"
+input mileage
+print "How old is the vehicle in years?"
+input age
+
+if (miles < 42700) {
+	if ( miles > 10300 AND miles < 42700 AND age <= 2 )  {
+		print “Offer 50% of original price”
+	}
+
+	if ( miles > 10300 AND miles < 42700 AND age > 2 )  {
+		print “Offer 70% of original price”
+	}
+
+	if ( miles >= 4200 AND miles <= 10300 AND age <= 2 )  {
+		print “Offer 60% of original price”
+	}
+
+	if ( miles >= 4200 AND miles <= 10300 AND age > 2 )  {
+		print “Offer 80% of original price”
+	}
+	
+	if ( miles < 4200 AND age <= 2 )  {
+		print “Offer 70% of original price”
+	}
+
+	if ( miles < 4200 AND age > 2 )  {
+		print “Offer 80% of original price”
+	}
+}
+else {
+	print "Offer 40% of original price."
+}

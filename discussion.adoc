@@ -1,0 +1,49 @@
+= Intro to Programming Discussion posts
+
+== Chapter 1
+
+== Chapter 2
+
+=== Part 1
+
+print "What is the current hour?"
+
+input time
+
+if (time < 11) {
+
+	if (time < 10) {
+
+		print "You should grab a quick snack."
+
+	}
+
+	else {
+
+		print "Get back to work!"
+
+	}
+
+}
+
+else {
+
+	print "Lunchtime. Go get some food!"
+}
+
+
+=== Part 2
+
+print "Do you have unread email messages? (Y/N)"
+input response
+while (answer = "yes") {
+----- print "Open newest message."
+----- print "Read the email."
+----- print "Carefully choose REPLY / REPLYTOALL."
+----- print "Compose response."
+----- print "Review message and click SEND."
+----- wait ten minutes
+----- print "Do you have anymore unread emails?"
+----- input answer
+}
+
