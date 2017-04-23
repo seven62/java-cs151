@@ -1,38 +1,33 @@
-import java.util.Scanner;
-
 public class Main
 {
     public static void main(String[] args)
     {
-        Scanner stdIn = new Scanner (System.in);
-        String response;
-        double itemPrice;
-        double totalBudget;
-        double totalInCart;
 
-        totalInCart = 0;
-        itemPrice = 0;
+        String myStr = "Now is the time for all good me to come to the aide of their country!";
+        System.out.println(myStr.lastIndexOf("e ")); // that is an 'e' and a space
+        doub
+        Math.random();
 
-        System.out.println("Enter your total budget");
-        totalBudget = stdIn.nextDouble();
 
-        do
-        {
-            System.out.print("Enter the price of item:");
-            itemPrice += stdIn.nextDouble();
-            totalInCart += totalInCart + itemPrice;
-            System.out.print("Your cart total is $" + totalInCart + ". ");
-            System.out.print("Are you still shopping? (y/n):");
-            response = stdIn.nextLine();
-        } while (response == "y" || response == "Y");
+        //        String name = "Sean Cochran";
+//        String date = "04/22/2017";
+//        int card = 5678;
+//        Double tab = 67.20;
+//        Double tip = .20;
+//        String header = "---------------"; //heading
+//        String divider = "==============="; //heading
+//        String footer = "---------------"; //footer
+//
+//        System.out.println(header);
+//        System.out.println("Customer name: " + name);
+//        System.out.println(date);
+//        System.out.println("Last 4 digits of debit card: " + card);
+//        System.out.println("Amount owed: " + "$ " + tab);
+//        System.out.println("+ " + tip);
+//        System.out.println("Your grand total with tip is:");
+//        System.out.println("$ " + (tab + (tab * tip)));
+//        System.out.println(footer);
 
-        if (totalBudget < totalInCart)
-        {
-            System.out.print("You have exceeded your budget, remove items and start over.");
-        }
-        else
-        {
-            System.out.print("Shopping complete, you spent $" + totalInCart);
-        }
-    }
-}
+
+    } // end main method
+} // end class PrintF
