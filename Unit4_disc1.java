@@ -12,8 +12,8 @@ public class Main
     public static void main(String[] args)
     {
         Scanner keyboard = new Scanner(System.in);
-        System.out.println("Please enter a sentence.");
-        String mySentence = keyboard.nextLine();
+        System.out.println("Please enter your user name (first.last): ");
+        String userName = keyboard.nextLine();
         char lastChar = mySentence.charAt(mySentence.length()-1);
         char firstChar = mySentence.charAt(0);
 
@@ -27,3 +27,6 @@ public class Main
         }
     }
 }
+
+
+        if ((lastChar == '.') && (firstChar == 'H'))

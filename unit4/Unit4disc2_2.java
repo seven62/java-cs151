@@ -1,6 +1,6 @@
 /**********************
  - sean cochran - 16APR2017
- - unit 4 discussion 2
+ - unit 4 discussion 2_2
  - loop / switch example
  **********************/
 

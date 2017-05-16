@@ -18,3 +18,8 @@ public class Main
         System.out.println("Liftoff!");
     }
 }
+
+
+do - evaluated at the end of the loop
+while - condition is continually evaluated
+for - task completed "x" times

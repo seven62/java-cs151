@@ -1,12 +1,12 @@
 /**********************
 Sean cochran - 16APR2017
- - unit 4 discussion 2
+ - unit 4 discussion 2_1
  - loop example
  **********************/
 
 import java.util.Scanner;
 
-public class Unit4disc2_1 
+public class Unit4disc2_1
 {
     public static void main(String[] args)
     {
